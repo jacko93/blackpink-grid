@@ -4,6 +4,7 @@ body {
   margin:0;
   padding:0;
   width: 100vw;
+  cursor: url("../images/cursor.png"), auto;
 }
 
 .blackpink > div {
@@ -24,7 +25,13 @@ h1 {
   width: inherit;
   height: Inherit;
   position: absolute;
+  transition: all 0.3s;
 }
+
+.mask:hover {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
 
 #jennie, #jisoo, #rose, #lisa {
   background-position: center center !important;
