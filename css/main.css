@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:700&subset=latin-ext");
+
+body {
+  margin:0;
+  padding:0;
+  width: 100vw;
+}
+
+.blackpink > div {
+  float: left;
+}
+
+h1 {
+  text-align: center;
+  color: pink !important;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: "Encode Sans Condensed" !important;
+  border: 2px solid pink;
+  border-width: 2px 0;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: inherit;
+  height: Inherit;
+  position: absolute;
+}
+
+#jennie, #jisoo, #rose, #lisa {
+  background-position: center center !important;
+  background-size: cover !important;
+  width: 25vw;
+  height: 100vh;
+  position: relative;
+  transition: width 0.5s;
+}
+
+#jennie {
+  background: url("../images/jennie.jpg") no-repeat;
+}
+
+#jisoo{
+  background: url("../images/jisoo.jpg") no-repeat;
+}
+
+#rose {
+  background: url("../images/rose.jpg") no-repeat;
+}
+
+#lisa {
+  background: url("../images/lisa.jpg") no-repeat;
+}
